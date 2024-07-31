@@ -275,13 +275,10 @@ background: #8a9d9e59;
 }
 
 @media (max-width: 576px) {
-    .carousel-caption h5 {
-        font-size: 14px;
-        font-weight: 500 !important;
-    }
+   
 
     .carousel-caption h1 {
-        font-size: 30px;
+        font-size: .8rem;
         font-weight: 600 !important;
     }
 }
@@ -503,6 +500,9 @@ background: #8a9d9e59;
     transform: scale(1.15);
 }
 
+@media (min-width: 991.98px){
+
+}
 
 /*** Miscellaneous ***/
 @media (min-width: 991.98px) {
@@ -537,6 +537,26 @@ background: #8a9d9e59;
 @media (min-width: 767.98px) {
     .footer-about {
         margin-bottom: -75px;
+    }
+}
+
+@media (max-width: 998px) {
+    .head-line{
+        font-size: 1.8rem;
+        width: 80%;
+       position: relative;
+       left: 10%;
+    }
+}
+
+@media (min-width: 998) and (max-width: 1800) {
+    .head-line{
+        font-size: 2rem;
+    }
+}
+@media (min-width: 300) and (max-width: 600) {
+    .head-line{
+        font-size: .8rem;
     }
 }
 
