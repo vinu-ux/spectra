@@ -529,10 +529,18 @@ background: #8a9d9e59;
 .link-animated a {
     transition: .5s;
 }
+.link-animated span {
+    transition: .5s;
+}
 
 .link-animated a:hover {
     padding-left: 10px;
 }
+.link-animated span:hover {
+    padding-left: 10px;
+}
+
+
 
 @media (min-width: 767.98px) {
     .footer-about {
