@@ -588,3 +588,13 @@ background: #8a9d9e59;
   ::-webkit-scrollbar-thumb:hover {
     background: #555; /* color of the handle on hover */
   }
+
+ 
+
+  @media (max-width: 740px) {
+   .map-sz{
+    padding: 10px;
+    width: 100%;
+    overflow-x: scroll;
+  }
+}
